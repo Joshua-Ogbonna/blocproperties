@@ -1,0 +1,65 @@
+.footer__component {
+  padding: 100px;
+  background: #101010;
+  color: #fff;
+}
+.footer__component .separate {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__component .separate .left span {
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 90px;
+  font-family: var(--font-one);
+}
+.footer__component .separate .left div {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.footer__component .separate .right {
+  position: relative;
+}
+.footer__component .separate .right input {
+  width: 505px;
+  height: 70px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #725cff;
+  color: #fff;
+  outline: 0;
+}
+.footer__component .separate .right button {
+  position: absolute;
+  right: 0;
+  height: 50px;
+  width: 126px;
+  height: 58px;
+  background: #725cff;
+  border: 1px solid #725cff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: var(--font-three);
+  color: #fff;
+}
+.footer__component hr {
+    border: 2px solid #282828;
+    margin: 100px 0 100px;
+}
+.footer__component .links {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+}
+.footer__component .links a {
+    text-decoration: none;
+    color: #fff;
+}

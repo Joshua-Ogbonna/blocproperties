@@ -1,0 +1,89 @@
+.hero__component {
+  display: flex;
+  height: 100vh;
+  position: relative;
+  z-index: 0;
+}
+.hero__component div {
+  height: 150%;
+  width: 50%;
+}
+.hero__component .left {
+  background: #14141c;
+}
+.hero__component .right {
+  background-image: url("../../assets/images/house.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.hero__component .inner {
+  position: absolute;
+  padding: 100px;
+  top: 150px;
+  height: 100%;
+  z-index: 100000;
+}
+.hero__component .inner img {
+  margin-bottom: 40px;
+}
+.hero__component .inner h1 {
+  text-transform: capitalize;
+  display: flex;
+  /* gap: 30px; */
+  width: 1030px;
+}
+.hero__component .inner h1 .small__text {
+  width: 222px;
+  height: 66px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 118%;
+  color: #00e4e4;
+  margin-top: 25px;
+  font-family: var(--font-one);
+}
+.hero__component .inner h1 .mid__text,
+.hero__component .bottom__text {
+  width: 784px;
+  height: 98px;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 98px;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-family: var(--font-two);
+}
+.hero__component .bottom__text {
+  line-height: 70px !important;
+}
+.hero__component .inner button {
+  width: 304px;
+  height: 96px;
+  margin-top: 30px;
+  background: #00e4e4;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  border: none;
+  font-family: var(--font-two);
+}
+.hero__component .right div {
+  background: rgba(17, 17, 17, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 0px 500px 500px 0px;
+  width: 619px;
+  height: 165px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  color: #828282;
+  position: absolute;
+  bottom: 30px;
+  padding: 40px 20px;
+  font-family: var(--font-three);
+}
+.hero__component .right div span {
+    color: #fff;
+}

@@ -1,0 +1,36 @@
+.nav__component {
+  padding: 10px 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100000000;
+}
+.nav__component ul {
+  display: flex;
+  align-items: center;
+}
+.nav__component ul li {
+  list-style: none;
+}
+.nav__component .first__layer li {
+  margin-right: 30px;
+}
+.nav__component a,
+.nav__component ul button {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.nav__component ul button {
+  width: 175px;
+  height: 58px;
+  background: none;
+}
+.nav__component .first__layer a {
+  color: #ffffff;
+}

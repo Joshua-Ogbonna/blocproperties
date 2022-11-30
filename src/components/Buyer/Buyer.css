@@ -1,0 +1,143 @@
+.buyer__component {
+  padding: 150px 100px 10px;
+  background-color: #14141c;
+}
+.buyer__component .header {
+  z-index: 10000;
+}
+.buyer__component .header h5 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #00e4e4;
+  font-family: var(--font-two);
+  z-index: 100000;
+}
+.buyer__component .header h3 {
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 90px;
+  font-family: var(--font-one);
+  text-transform: capitalize;
+  color: #fff;
+}
+.buyer__component .contents {
+  margin-top: 100px;
+}
+.buyer__component .contents .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-bottom: 100px;
+}
+.buyer__component .contents .content div {
+  text-transform: capitalize;
+  z-index: 1000;
+}
+.buyer__component .contents .content .house {
+  z-index: 1000000;
+}
+.buyer__component .contents .content h5 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: var(--font-three);
+  color: #00e4e4;
+  height: 30px;
+}
+.buyer__component .content h3 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  font-family: var(--font-one);
+  color: #fff;
+  height: 72px;
+}
+.buyer__component .content p {
+  width: 545px;
+  height: 60px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #828282;
+}
+.buyer__component .content div span {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #725cff;
+  cursor: pointer;
+}
+.buyer__component .content .about {
+  position: absolute;
+  right: -100px;
+  z-index: 0;
+  opacity: 0.4;
+}
+
+.seller__component {
+  position: relative;
+}
+.seller__component .sell,
+.seller__component .ahome {
+  position: absolute;
+  opacity: 0.4;
+  z-index: 0;
+}
+.seller__component .sell {
+  top: 230px;
+  left: 0;
+}
+.seller__component .ahome {
+  right: 0;
+  top: 380px;
+}
+.seller__component .testimonials {
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+  margin: 200px 0 200px;
+  position: relative;
+}
+.seller__component .testimonials .left h5 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: var(--font-two);
+  color: #00e4e4;
+  text-transform: capitalize;
+}
+.seller__component .testimonials .left h3 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 20px;
+  color: #fff;
+}
+.seller__component .testimonials .left p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #fff;
+}
+.seller__component .testimonials .right {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  font-family: var(--font-one);
+  width: 925px;
+  color: #fff;
+  z-index: 1000;
+}
+.seller__component .testimonials .right span {
+  color: #725cff;
+}
+.seller__component .testimonial {
+  position: absolute;
+  bottom: -110px;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+  opacity: 0.4;
+}
