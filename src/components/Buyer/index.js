@@ -16,10 +16,10 @@ const Buyer = () => {
           <div>
             <h5>01</h5>
             <h3>Browse</h3>
-            <p>
+            {/* <p>
               Donec cras lacus, quis nunc urna. Feugiat neque, non, mi erat
               ultricies morbi. Habitasse iaculis sed morbi natoque. acus,{" "}
-            </p>
+            </p> */}
             <span>
               Browse All <img src="/Line.svg" alt="Line SVG" />
             </span>
@@ -33,10 +33,10 @@ const Buyer = () => {
           <div>
             <h5>02</h5>
             <h3>Bid</h3>
-            <p>
+            {/* <p>
               Donec cras lacus, quis nunc urna. Feugiat neque, non, mi erat
               ultricies morbi. Habitasse iaculis sed morbi natoque. acus,{" "}
-            </p>
+            </p> */}
           </div>
         </div>
 
@@ -45,7 +45,7 @@ const Buyer = () => {
           <div>
             <h5>03</h5>
             <h3>Pay</h3>
-            <p>Donec cras lacus, quis nunc urna. Feugiat neque, non, mi erat ultricies morbi. Habitasse iaculis sed morbi natoque. acus, </p>
+            {/* <p>Donec cras lacus, quis nunc urna. Feugiat neque, non, mi erat ultricies morbi. Habitasse iaculis sed morbi natoque. acus, </p> */}
           </div>
           <img src="/house5.svg" alt="house" />
         </div>

@@ -18,7 +18,7 @@ const Process = () => {
         <img src="/house2.svg" alt="house" />
         <div>
             <h3>compact classic summer house.</h3>
-            <p>Donec cras lacus, quis nunc urna. Feugiat neque, non, mi erat ultricies morbi. Habitasse iaculis sed morbi natoque. acus, quis nunc urna. Feugiat neque, non, mi erat</p>
+            {/* <p>Donec cras lacus, quis nunc urna. Feugiat neque, non, mi erat ultricies morbi. Habitasse iaculis sed morbi natoque. acus, quis nunc urna. Feugiat neque, non, mi erat</p> */}
         </div>
         <img src="/PROPERTIES.svg" alt="PROPERTIES" className="properties" />
       </div>

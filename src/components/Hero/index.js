@@ -28,13 +28,15 @@ const Hero = () => {
         <div className="bottom__text">and Selling homes.</div>
         <button onClick={handleConnectMetamask}>{currentAccount ? shortenAddress(currentAccount) : "Connect Wallet"}</button>
       </div>
-      <div className="left"></div>
+      <div className="left">
+        
+      </div>
       <div className="right">
-        <div>
+        {/* <div>
           <span> Donec cras</span> lacus, quis nunc urna. Feugiat neque, non, mi
           erat ultricies morbi. Habitasse iaculis sed morbi natoque. acus, quis
           nunc urna. Feugiat neque, non, mi erat
-        </div>
+        </div> */}
       </div>
     </div>
   );

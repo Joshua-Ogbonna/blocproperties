@@ -1,11 +1,11 @@
 .hero__component {
   display: flex;
-  height: 100vh;
-  position: relative;
+  height: 150vh;
+  /* position: relative; */
   z-index: 0;
 }
 .hero__component div {
-  height: 150%;
+  height: 100%;
   width: 50%;
 }
 .hero__component .left {

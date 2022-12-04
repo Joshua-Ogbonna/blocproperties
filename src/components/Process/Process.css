@@ -1,6 +1,7 @@
 .process__component {
     background: #101010;
     padding: 100px 0;
+    /* margin-top: 300px; */
 }
 .process__component .powered {
     text-align: center;
