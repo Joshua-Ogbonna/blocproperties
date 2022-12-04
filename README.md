@@ -1,9 +1,7 @@
 # Welcome to BlocProperties
 Blocproperties is a web3 product built with the aim of simplifying transactions in the real estate. \
-\
-Property owners can upload their properties on the blockchain through our robust smart contract. This is added to a list of property listings array and users can scan through the lists of properties and decide to make a purchase for a particular asset.
-\ 
-The aim of this project is to reduce/totally eradicate the fraud embedded in the real estate space where people sell the same property to different users.\ 
+Property owners can upload their properties on the blockchain through our robust smart contract. This is added to a list of property listings array and users can scan through the lists of properties and decide to make a purchase for a particular asset. \
+The aim of this project is to reduce/totally eradicate the fraud embedded in the real estate space where people sell the same property to different users. \
 It also aim to fasten the speed of transactions and transfer of property rights from the seller to buyer
 
 # Getting Started with BlocProperties
