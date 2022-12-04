@@ -9,6 +9,7 @@ import "./App.css";
 
 // Components
 const Home = pageLoader(lazy(() => import("./pages/Home")));
+const EnlistProperty = pageLoader(lazy(() => import("./pages/EnlistProperty")))
 
 let { ethereum } = window;
 
@@ -36,6 +37,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="" element={<Home />} />
+        <Route path="enlist-property" element={<EnlistProperty />} />
       </Routes>
     </BrowserRouter>
   );

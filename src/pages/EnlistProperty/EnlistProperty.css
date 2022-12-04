@@ -1,0 +1,19 @@
+.enlist__property {
+  background: #14141c;
+  height: 100vh;
+  padding: 20px;
+}
+
+.enlist__property h3 {
+  color: #fff;
+  font-family: var(--font-two);
+  text-align: center;
+  margin: 10px 0 10px;
+}
+.enlist__property .add__form {
+  width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}

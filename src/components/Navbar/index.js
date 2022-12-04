@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 // import { Link } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 import { useDispatch, useSelector } from "react-redux";
@@ -9,34 +9,28 @@ import { connectWallet } from "../../state/user/actions";
 import "./Navbar.css";
 
 const Navbar = () => {
-  const [navbar, setNavbar] = useState("transparent");
-  const [button, setButton] = useState({
-    color: "#000",
-    borderColor: "#000",
-  });
   const dispatch = useDispatch();
-  const { currentAccount } = useSelector(state => state.user)
+  const { currentAccount } = useSelector((state) => state.user);
 
   const handleConnectMetamask = () => dispatch(connectWallet());
 
-  const changeBackground = () => {
-    if (window.scrollY >= 66) {
-      setNavbar("#14141c");
-      setButton({ ...button, color: "#fff", borderColor: "#fff" });
-    } else {
-      setNavbar("transparent");
-      setButton({ ...button, color: "#000", borderColor: "#000" });
-    }
-  };
+  // const changeBackground = () => {
+  //   if (window.scrollY >= 66) {
+  //     setNavbar("#14141c");
+  //     setButton({ ...button, color: "#fff", borderColor: "#fff" });
+  //   } else {
+  //     setNavbar("transparent");
+  //     setButton({ ...button, color: "#000", borderColor: "#000" });
+  //   }
+  // };
 
-  useEffect(() => {
-    changeBackground();
-    window.addEventListener("scroll", changeBackground);
-    // eslint-disable-next-line
-  }, [window.scrollY]);
+  // useEffect(() => {
+  //   changeBackground();
+  //   window.addEventListener("scroll", changeBackground);
+  // }, [window.scrollY]);
 
   return (
-    <div className="nav__component" style={{ backgroundColor: navbar }}>
+    <div className="nav__component">
       <ul className="first__layer">
         <li className="brand">
           <Link to="" onClick={scrollToTop}>
@@ -61,18 +55,18 @@ const Navbar = () => {
         <li>
           <Link smooth to="#for_sellers">
             For Sellers
-          </Link>
+          </Link> 
         </li>
       </ul>
       <ul className="second__layer">
+        {currentAccount ? <li>
+          <Link to="enlist-property">Enlist Property</Link>
+        </li> : null}
+        {currentAccount ? <li>
+          <Link to="">View Properties</Link>
+        </li> : null}
         <li>
-          <button
-            style={{
-              color: button.color,
-              border: `1px solid ${button.borderColor}`,
-            }}
-            onClick={handleConnectMetamask}
-          >
+          <button onClick={handleConnectMetamask}>
             {currentAccount ? shortenAddress(currentAccount) : "Connect Wallet"}
           </button>
         </li>

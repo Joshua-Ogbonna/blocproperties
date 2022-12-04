@@ -7,6 +7,7 @@
   width: 100%;
   top: 0;
   z-index: 100000000;
+  background: #14141c;
 }
 .nav__component ul {
   display: flex;
@@ -17,6 +18,9 @@
 }
 .nav__component .first__layer li {
   margin-right: 30px;
+}
+.nav__component .second__layer li {
+  margin-left: 30px;
 }
 .nav__component a,
 .nav__component ul button {
@@ -29,8 +33,10 @@
 .nav__component ul button {
   width: 175px;
   height: 58px;
-  background: none;
+  background: #14141c;
+  border: 1px solid #ffffff;
+  color: #ffffff;
 }
-.nav__component .first__layer a {
+.nav__component a {
   color: #ffffff;
 }

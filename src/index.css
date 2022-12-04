@@ -1,5 +1,32 @@
 :root {
-    --font-one: "Poppins", sans-serif;
-    --font-two: "Montserrat", sans-serif;
-    --font-three: 'Space Grotesk', sans-serif;
-  }
+  --font-one: "Poppins", sans-serif;
+  --font-two: "Montserrat", sans-serif;
+  --font-three: "Space Grotesk", sans-serif;
+}
+.form__area {
+  margin-bottom: 20px;
+}
+.form__area label {
+  font-family: var(--font-two);
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.form__area .form-control {
+  font-size: 14px;
+  font-family: var(--font-three);
+  outline: 0;
+  border-color: #14141c;
+  height: 40px;
+}
+.form__area .form-control:focus {
+  box-shadow: none;
+  outline: 0;
+}
+.form__area button {
+  width: 200px;
+  height: 40px;
+  background: #14141c;
+  color: #fff;
+  font-size: 14px;
+  font-family: var(--font-three);
+}
