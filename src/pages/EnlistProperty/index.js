@@ -34,6 +34,7 @@ const EnlistProperty = () => {
         return alert("All form fields are required");
       }
       const enlistmentContract = dispatch(getEnlistmentContract());
+      console.log(enlistmentContract);
       const transactionHash = await enlistmentContract.addEnlistmet(
         streetName,
         floorNr,
@@ -50,10 +51,13 @@ const EnlistProperty = () => {
       console.log(transactionHash);
       await transactionHash.wait();
       setLoading(false);
+      const listings = await enlistmentContract.getEnlistments()
+      console.log(listings)
       addToast(
         `Your listing ${transactionHash.hash} has been received and will be reviewed!`,
         { appearance: "success" }
       );
+     
       setEnlistment({
         streetName: "",
         floorNr: null,
@@ -61,7 +65,6 @@ const EnlistProperty = () => {
         houseNr: null,
         postalCode: null,
       });
-      console.log(enlistmentContract);
     } catch (error) {
       addToast("An error occurred! Please try again", { appearance: "error" });
     }

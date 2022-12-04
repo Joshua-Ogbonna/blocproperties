@@ -60,10 +60,10 @@ const Navbar = () => {
       </ul>
       <ul className="second__layer">
         {currentAccount ? <li>
-          <Link to="enlist-property">Enlist Property</Link>
+          <Link to="/enlist-property">Enlist Property</Link>
         </li> : null}
         {currentAccount ? <li>
-          <Link to="">View Properties</Link>
+          <Link to="/listings">View Properties</Link>
         </li> : null}
         <li>
           <button onClick={handleConnectMetamask}>

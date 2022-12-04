@@ -17,3 +17,14 @@ export const getEnlistmentContract = () => {
     }
   };
 };
+
+export const getListings = () => {
+  return dispatch => {
+    try {
+      const contract = dispatch(getEnlistmentContract())
+      console.log(contract)
+    } catch (error) {
+      console.log(error)
+    }
+  }
+}
