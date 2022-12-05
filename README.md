@@ -4,6 +4,8 @@ Property owners can upload their properties on the blockchain through our robust
 The aim of this project is to reduce/totally eradicate the fraud embedded in the real estate space where people sell the same property to different users. \
 It also aim to fasten the speed of transactions and transfer of property rights from the seller to buyer
 
+# Blockchain Repository - https://github.com/max-clinch/BlocProperties-Enlistment-Project
+
 # Getting Started with BlocProperties
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
