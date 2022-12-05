@@ -51,8 +51,8 @@ const EnlistProperty = () => {
       console.log(transactionHash);
       await transactionHash.wait();
       setLoading(false);
-      const listings = await enlistmentContract.getEnlistments()
-      console.log(listings)
+      // const listings = await enlistmentContract.getEnlistments()
+      // console.log(listings)
       addToast(
         `Your listing ${transactionHash.hash} has been received and will be reviewed!`,
         { appearance: "success" }
